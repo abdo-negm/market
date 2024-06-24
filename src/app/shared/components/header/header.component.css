@@ -1,0 +1,119 @@
+
+.header_change{ 
+  background-color: rgb(100, 100, 112);
+  transition: 2s ease-in-out;
+  justify-content: space-between;
+  padding-inline: 3%;
+  padding-top: 0;
+  position: fixed;
+  top:0;
+  left: 0;
+right: 0;
+}
+header {
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  padding-inline: 3%;
+  padding-top: 0;
+  position: fixed;
+  top:0;
+  left: 0;
+right: 0;
+  
+}
+.sign-in,
+.sign-out,
+.register,
+.home,
+.cart {
+  margin-inline: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.sign-in,
+.sign-out,
+.register {
+  border: 1px solid var(--bodyFont);
+  padding: 0.4rem 1rem;
+  border-radius: 55px;
+}
+.home:hover,
+.cart:hover{  transform: scale(1.2);
+}
+.sign-in:hover,
+.sign-out:hover,
+.register:hover,
+.sign-in:hover .fa-solid,
+.sign-out:hover .fa-solid,
+.register:hover .fa-solid {
+  background-color: var(--bodyFont);
+  color: var(--blue);
+  transform: scale(1.2);
+
+}
+.fa-solid {
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+}
+.cart {
+  background: var(--bodyFont);
+  color: var(--blue);
+  font-size: 0.9rem;
+  padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+  border-radius: 55px;
+  position: relative;
+}
+.cart .fa-solid {
+  color: var(--blue);
+}
+.home {
+  background: var(--bodyFont);
+  color: var(--blue);
+  font-size: 0.9rem;
+  padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+  border-radius: 55px;
+}
+.products-numbers {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  background-color: rgb(255, 90, 123);
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.fa-bag-shopping {
+  font-size: 2rem;
+}
+.logo-sp {
+  font-weight: bold;
+}
+
+.logo-p {
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+@media (width < 600px) {
+  header.flex {
+    justify-content: center;
+    padding-inline: 0;
+    padding-top: 1.2rem;
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .logo {
+      display: none;
+    }
+  }
+}

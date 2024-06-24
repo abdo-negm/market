@@ -1,0 +1,18 @@
+
+.background{
+    background-image: url(../../../../images/bac.jpg);
+    height:  100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+@media(width < 1000px){
+    .background{
+        background-position: left;
+    }
+}
+.line{
+    border-bottom: 3px solid;
+    margin: 5px;
+}

@@ -1,0 +1,31 @@
+.content{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10%;
+    & .lifestyle{
+        text-transform: uppercase;
+        font-size:1.7rem;
+    }
+    & .men{
+        margin-top: .7rem;
+        font-weight: bold;
+    }
+   
+    & .sale span{
+       color: brown;
+       margin-left: .8rem;
+    }
+    & .free-shipping{
+        font-size: 1.5rem;
+    }
+    & button{
+        background-color:black;
+        color: cyan;
+        font-size: .9rem;
+        margin-top: .9rem;
+        border-radius: 3px;
+        padding: .6rem 1.6rem;
+    }
+}

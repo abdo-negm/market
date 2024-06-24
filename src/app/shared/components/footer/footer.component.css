@@ -1,0 +1,19 @@
+footer{
+    text-align: center;
+    background-color: var(--footer-bg);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+    padding-block: 1rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 17px;
+  
+    & span {
+      color: #ff7790;
+      text-transform: capitalize;
+    }
+  }
